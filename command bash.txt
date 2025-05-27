@@ -18,7 +18,7 @@ git push origin namegit (имя ветки). - запушить коммит
 
 git reset <key> <adress> - key --soft, --hard - удалить коммит
 
-git remote add - обавляет ссылку 
+git remote add origin - добавляет ссылку 
 
 git remote remove origin - удаляет репоситорий
 
