@@ -16,6 +16,8 @@ git log - проверить списки коммитов
 
 git push origin namegit (имя ветки). - запушить коммит
 
+git reset <key> <adress> - key --soft, --hard - удалить коммит
+
 --------------------------------------------
 mkdir name file - создать папку
 
@@ -49,3 +51,8 @@ echo (...) - напечатает в консоле
 
 echo some text.расширение > name - создает файл
 
+git config --global user.name Name - изменить имя автора в коммите
+
+git config --global user.email namemail - поменять почту
+
+git config --global --list - посмотреть имена в коммите
