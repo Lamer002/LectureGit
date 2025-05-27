@@ -6,9 +6,15 @@ git status - статус индексации файла
 
 git add name.format - индексация файла
 
+git add . - добавить в индекс все, что в папке
+
+git restore --stage area - убрать из зоны индексирования
+
 git commit -m "Name commit" - создать коммит
 
 git log - проверить списки коммитов
+
+git push origin namegit (имя ветки). - запушить коммит
 
 --------------------------------------------
 mkdir name file - создать папку
@@ -30,3 +36,16 @@ nano - блокнот в терминале
 ls -a - посмотеть папки, в том числе скрытые
 
 mv name file new name file - переименовать файл
+
+git clone namerep (new name) - скачать копию
+
+git branch - ветки
+
+git branch name - создание ветки
+
+git switch name - переключаться между ветками
+
+echo (...) - напечатает в консоле
+
+echo some text.расширение > name - создает файл
+
