@@ -18,6 +18,10 @@ git push origin namegit (имя ветки). - запушить коммит
 
 git reset <key> <adress> - key --soft, --hard - удалить коммит
 
+git remote add - обавляет ссылку 
+
+git remote remove origin - удаляет репоситорий
+
 --------------------------------------------
 mkdir name file - создать папку
 
@@ -56,3 +60,5 @@ git config --global user.name Name - изменить имя автора в к�
 git config --global user.email namemail - поменять почту
 
 git config --global --list - посмотреть имена в коммите
+
+git branch -M main - переименовать ветку
